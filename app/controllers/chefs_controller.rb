@@ -1,7 +1,7 @@
 class ChefsController < ApplicationController
 
   def index
-    chefs = Chefs.all
+    chefs = Chef.all
     render json: chefs.to_json()
   end
 
