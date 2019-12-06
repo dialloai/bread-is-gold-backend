@@ -22,49 +22,35 @@ user2= User.create(username:"cpark", password:" ", first_name:"Christina", last_
 
 #CHEF
 
-chef1= Chef.create(first_name:"Daniel", last_name:"Humm", chef_image:"https://media.cntraveler.com/photos/53e2dc91dddaa35c30f60d48/4:3/w_480,c_limit/daniel-humm.jpg", chef_background:"Daniel Humm (born 1976 in Strengelbach, Switzerland) is a Swiss chef and restaurant owner; he is chef/co-owner of Eleven Madison Park, NoMad New York, NoMad Los Angeles and Made Nice. His cuisine is focused on locally sourced ingredients, with an emphasis on simplicity, purity, and seasonal flavors. A native of Switzerland, he was exposed to a range of food at a very young age, and began working in kitchens at the age of 14. From there he spent time in some of the finest Swiss hotels and restaurants before earning his first Michelin star at the age of 24. In 2003, Daniel moved to the United States to become the executive chef at Campton Place in San Francisco where he received four stars from the San Francisco Chronicle. Three years later, he moved to New York to become the executive chef at Eleven Madison Park, and in 2011 he and his business partner Will Guidara purchased the restaurant from Danny Meyer's Union Square Hospitality Group. In 2017, Eleven Madison Park became number 1 on the World's 50 Best Restaurants.")
+chef1 = Chef.create(first_name:"Daniel", last_name:"Humm", chef_image:"https://media.cntraveler.com/photos/53e2dc91dddaa35c30f60d48/4:3/w_480,c_limit/daniel-humm.jpg", chef_background:
+    "Daniel Humm is a Swiss chef and restaurant owner. He is chef/co-owner of Eleven Madison Park, NoMad New York, NoMad Los Angeles and Made Nice. His cuisine is focused on locally sourced ingredients,with an emphasis on simplicity, purity, and seasonal flavors. In 2017, Eleven Madison Park became number 1 on the World's 50 Best Restaurants.")
 
-chef2= Chef.create(first_name:"Massimo", last_name:"Bottura", chef_image:"http://cdn.cnn.com/cnnnext/dam/assets/150304111651-massimo-bottura-osteria.jpg ", chef_background:" ")
+chef2 = Chef.create(first_name:"Massimo", last_name:"Bottura", chef_image:"http://olivem.co.kr/wp-content/uploads/2015/05/0605-massimo-bottura3-960x960.jpg", chef_background:
+    "Massimo Bottura is is an Italian restaurateur and the chef patron of Osteria Francescana, a three-Michelin-star restaurant based in Modena, Italy which has been listed in the top 5 at The World's 50 Best Restaurants Awards since 2010 and received top ratings from ESPRESSO, Gambero Rosso and the Touring Club guides. After first winning the 50 Best Restaurants in 2016, Chef Bottura announced the refettorio that he had established in Milan the year before would continue and went on to form the cultural foundation Food for Soul. Bottura spends a lot of time in New York City for spreading the Italian culinary world and tradition.")
 
-chef3= Chef.create(first_name:"Mauro", last_name:"Collagreco", chef_image:" ", chef_background:"Chef Collagreco (born 30 September 1962) is an Italian restaurateur and the chef patron of Osteria Francescana, a three-Michelin-star restaurant based in Modena, Italy which has been listed in the top 5 at The World's 50 Best Restaurants Awards since 2010 and received top ratings from ESPRESSO, Gambero Rosso and the Touring Club guides. After first winning the 50 Best Restaurants in 2016 Bottura announced the refettorio that he had established in Milan the year before would continue and went on to form the cultural foundation Food for Soul. Bottura spends a lot of time in New York City for spreading the Italian culinary world and tradition.
+chef3 = Chef.create(first_name:"Mauro", last_name:"Collagreco", chef_image:"https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fkatiechang%2Ffiles%2F2018%2F12%2FMauro.jpg", chef_background:
+    "Chef Collagreco is an Italian Argentine chef at the three-Michelin stars restaurant Mirazur in Menton, France. Chef Mirazur became officially one of the best restaurants in the world listed in The S.Pellegrino World’s 50 Best Restaurants. In the same year, Colagreco was also awarded “Chef of the Year” by the prestigious Gault & Millau restaurant guide - the first non-French chef ever to receive this title. June 2019, Mirazur is elected the best restaurant in the world by the World's 50 Best Restaurants.")
 
-Osteria Francescana was ranked The World's 2nd Best Restaurant at the S.Pellegrino World's 50 Best Restaurants Awards 2015. In June 2016 Osteria Francescana was ranked No. 1 in The World's 50 Best Restaurants, and No. 2 in 2017. The restaurant was again ranked No. 1 in The World's 50 Best Restaurants in 2018.")
+chef4= Chef.create(first_name:"Rene", last_name:"Redzepi", chef_image:"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fredzepi0815-hd-rene-redzepi.jpg&w=400&c=sc&poi=face&q=85", chef_background:
+    "Chef Redzepi is a Danish chef and co-owner of the two-Michelin star restaurant Noma in the Christianshavn neighborhood of Copenhagen, Denmark. His restaurant was voted the best restaurant in the world by Restaurant magazine's World's Best Restaurants in 2010, 2011, 2012 and 2014. Chef Redzepi is noted for his work on the reinvention and refinement of a new Nordic cuisine and food that is characterized by inventiveness and clean flavours.")
 
-chef4= Chef.create(first_name:"Rene", last_name:"Redzepi", chef_image:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ren%C3%A9_Redzepi_en_la_cena_de_las_14_estrellas_Michel%C3%ADn_del_restaurante_Zaldiar%C3%A1n.jpg/440px-Ren%C3%A9_Redzepi_en_la_cena_de_las_14_estrellas_Michel%C3%ADn_del_restaurante_Zaldiar%C3%A1n.jpg ", chef_background:"Chef Redzepi (born 16 December 1977) is a Danish chef and co-owner of the two-Michelin star restaurant Noma in the Christianshavn neighborhood of Copenhagen, Denmark. His restaurant was voted the best restaurant in the world by Restaurant magazine's World's Best Restaurants in 2010, 2011, 2012 and 2014. Redzepi is noted for his work on the reinvention and refinement of a new Nordic cuisine and food that is characterized by inventiveness and clean flavours.")
+chef5= Chef.create(first_name:"Yoshihiro", last_name:"Narisawa", chef_image:"https://www.identitagolose.it/public/images/medium/Narisawa%20Yoshihiro.jpg", chef_background:
+    "Narisawa Yoshihiro is a Japanese chef and owner of the two-Michelin star restaurant Les Créations de Narisawa in Minato, Tokyo, Japan. He travelled to Europe at the age of 19, and trained in France, Switzerland, and Italy, before returning to Japan in 1996. In 1996, Narisawa opened a restaurant in Odawara, Kanagawa. In 2003, Narisawa moved to Tokyo and opened the restaurant Les Créations de Narisawa in Aoyama, renaming it Narisawa in 2011. Restaurant Narisawa was ranked #20 on The World's 50 Best Restaurants list in 2009, and has consistently ranked in the top 30 since.")
 
-chef5= Chef.create(first_name:"Yoshiro", last_name:"Narisawa", chef_image:"https://c1.staticflickr.com/5/4241/35299939896_cbbdaebd3f_z.jpg", chef_background:"Narisawa Yoshihiro, born 11 April 1969) is a Japanese chef and owner of the two-Michelin star restaurant Les Créations de Narisawa in Minato, Tokyo, Japan. Narisawa was born in Aichi prefecture to a baker and western sweets maker. He travelled to Europe at the age of 19, and trained in France, Switzerland, and Italy, before returning to Japan in 1996.
+chef6= Chef.create(first_name:"Yannick", last_name:"Alleno", chef_image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Yannick_All%C3%A9no-_Goeffroy_de_Boismenu.jpg/440px-Yannick_All%C3%A9no-_Goeffroy_de_Boismenu.jpg", chef_background:
+    "Yannick Alléno studied at Santo Dumont High School in Saint-Cloud. At fifteen years old, he started to spend all of his time cooking and learning from the very best chefs. When entering Drouant with Chef Louis Grondard, he worked hard to eventually forge his maturity and his discipline. He asserted himself in the wake of this renowned chef that he deeply admires, before taking off by himself to run the Scribe kitchens. In 1999, a first Michelin star rewarded his hard work and creativity, which was confirmed in 2002 with a second Michelin star. In 2003, the Hotel Le Meurice entrusted him with the position of chef de cuisine.")
 
-In 1996, Narisawa opened a restaurant in Odawara, Kanagawa. In 2003, Narisawa moved to Tokyo and opened the restaurant Les Créations de Narisawa in Aoyama, renaming it Narisawa in 2011. Restaurant Narisawa was ranked #20 on The World's 50 Best Restaurants list in 2009,[2] and has consistently ranked in the top 30 since.")
+chef7= Chef.create(first_name:"Gaston", last_name:"Acurio", chef_image:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmmZZMLf0R1LvWqofQgGMf9CM8_UK9LwWiV5ncFF0zDGiBMTuv", chef_background:
+    "Chef Acurio Jaramillo is a Peruvian chef and ambassador of Peruvian cuisine. He is the owner of restaurants in several countries and is the author of several books. His restaurant franchises focus on a specific category of Peruvian cuisine. Together with his wife Astrid, he managed the restaurant franchise Astrid & Gastón since 1994.")
 
-chef6= Chef.create(first_name:"Yannick", last_name:"Alleno", chef_image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Yannick_All%C3%A9no-_Goeffroy_de_Boismenu.jpg/440px-Yannick_All%C3%A9no-_Goeffroy_de_Boismenu.jpg", chef_background:"Born on December 16, 1968, in Puteaux, Yannick Alléno studied at Santo Dumont High School in Saint-Cloud. At fifteen years old, he started to spend all of his time cooking and learning from the very best chefs. He started his career at the Royal Monceau working with Gabriel Biscay before joining the Hotel Sofitel Sèvres and working closely with chefs Roland Durand and Martial Henguehard. When entering Drouant with Chef Louis Grondard, he worked hard to eventually forge his maturity and his discipline.
+chef8= Chef.create(first_name:"Ugo", last_name:"Alciati", chef_image:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-GwNLyGnZZBP-PpB8DmpmxGOGXt7hfzP57NugFfZ9b9CCwTv3", chef_background:
+    "Chef Alciati is the heir of a family that has written the history of Italian cuisine. Seasonal menus, essential menus, highest quality raw materials and the promotion of local excellence have always been Alciati’s winning features. His philosophy is to understand the nature of the ingredients, to respect the hard work of those who grow and produce them, to learn from their own land, it’s always better to remove than adding, less is more. The chef, in 2018, was appointed Chef Ambassador of the Italian Truffle in the World for the Piedmont Region by the Accademia Italiana del Tartufo.")
 
-He asserted himself in the wake of this renowned chef that he deeply admires, before taking off by himself to run the Scribe kitchens. In 1999, a first Michelin star rewarded his hard work and creativity, which was confirmed in 2002 with a second Michelin star. In 2003, the Hotel Le Meurice entrusted him with the position of chef de cuisine.
+chef9= Chef.create(first_name:"Mitsuharu", last_name:"Tsumura", chef_image:"https://route4us.com/wp-content/uploads/2019/01/Chef-Mitsuharu-Tsumura.jpg", chef_background:
+    "Born in Lima and of Japanese-Peruvian descent, Mitsuharu Tsumura can’t remember a time when food and cooking weren’t a central part of his life. With the support of his father, he opened Maido. Combining traditional Japanese cooking with Peruvian ingredients, Maido introduced Nikkei cuisine to the world and gave Peru one of its finest restaurants. For Tsumura, Maido is an expression of the ongoing story of Peru, nourishing guests with memory and imagination.")
 
-Yannick Alléno started to create true works of art the following years.")
-
-chef7= Chef.create(first_name:"Gaston", last_name:"Acurio", chef_image:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmmZZMLf0R1LvWqofQgGMf9CM8_UK9LwWiV5ncFF0zDGiBMTuv", chef_background:" Chef  Acurio Jaramillo (born October 30, 1967) is a Peruvian chef and ambassador of Peruvian cuisine. He is the owner of restaurants in several countries and is the author of several books. In Peru he is the host of his own television program and contributes to a few magazines. Acurio has helped establish Peruvian cuisine and offers typical Peruvian meals in a modern and attractive style. His restaurant franchises focus on a specific category of Peruvian cuisine.
-
-Together with his wife Astrid, he managed the restaurant franchise Astrid & Gastón since 1994.")
-
-chef8= Chef.create(first_name:"Ugo", last_name:"Alciati", chef_image:"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-GwNLyGnZZBP-PpB8DmpmxGOGXt7hfzP57NugFfZ9b9CCwTv3", chef_background:"Chef Alciati is the heir of a family that has written the history of Italian cuisine.
-
-He started working at the age of 15 and he never stopped since then.
-
-Seasonal menus, essential menus, highest quality raw materials and the promotion of local excellence have always been Alciati’s winning features.
-
-His philosophy: to understand the nature of the ingredients, to respect the hard work of those who grow and produce them, to learn from their own land, it’s always better to remove than adding, less is more.
-
-The chef, in 2018, was appointed Chef Ambassador of the Italian Truffle in the World for the Piedmont Region by the Accademia Italiana del Tartufo.")
-
-chef9= Chef.create(first_name:"Mitsuharu", last_name:"Tsumura", chef_image:"https://route4us.com/wp-content/uploads/2019/01/Chef-Mitsuharu-Tsumura.jpg", chef_background:"Born in Lima and of Japanese-Peruvian descent, Mitsuharu Tsumura can’t remember a time when food and cooking weren’t a central part of his life. But it took a little nudging from his father to realize that he could make his inherited fondness of cuisine into a career. With direction and determination, young Tsumura passed his final exams and applied to culinary school. Switching hemispheres, he traveled to Providence, Rhode Island, to attend Johnson & Wales University.  
-
-With the support of his steadfast father, he opened Maido. Combining traditional Japanese cooking with Peruvian ingredients, Maido introduced Nikkei cuisine to the world and gave Peru one of its finest restaurants. For Tsumura, Maido is an expression of the ongoing story of Peru, nourishing guests with memory and imagination.")
-
-chef10= Chef.create(first_name:"Alain", last_name:"Ducasse", chef_image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Alain_Ducasse.jpg/440px-Alain_Ducasse.jpg ", chef_background:"Chef Ducasse born 13 September 1956) is a French-born Monégasque chef. He operates a number of restaurants including Alain Ducasse at The Dorchester which holds three stars (the top ranking) in the Michelin Guide.
-
-Ducasse's first position as chef came in 1980 when he took over the kitchens at L'amandier in Mougins. One year later, he assumed the position of head chef at La Terrasse in the Hôtel Juana in Juan-les-Pins. In 1984, he was awarded two stars in the Michelin Red Guide.
-
-Ducasse came to the United States and in June 2000 opened the Alain Ducasse restaurant in New York City's Essex hotel at 160 Central Park South, receiving the Red Guide's three stars in December 2005, in the first Red Guide for NYC. Ducasse became the first chef to have 3 restaurants awarded 3 Michelin stars at the same time.")
+chef10= Chef.create(first_name:"Alain", last_name:"Ducasse", chef_image:"https://www.aim.fr/images/alain-ducasse-portrait.jpg", chef_background:
+    "Chef Ducasse is a French-born Monégasque chef. He operates a number of restaurants including Alain Ducasse at The Dorchester which holds three Michelin Stars. Ducasse's first position as chef came in 1980 when he took over the kitchens at L'amandier in Mougins. One year later, he assumed the position of head chef at La Terrasse in the Hôtel Juana in Juan-les-Pins. In 1984, he was awarded two stars in the Michelin Red Guide. Ducasse came to the United States and in June 2000 opened the Alain Ducasse restaurant in New York City's Essex hotel at 160 Central Park South, receiving the Red Guide's three stars in December 2005, in the first Red Guide for NYC. Ducasse became the first chef to have 3 restaurants awarded 3 Michelin stars at the same time.")
 
 
 #RECIPE
@@ -93,8 +79,8 @@ with salt.
 To serve, ladle the soup into bowls. Drizzle with olive oil
 and garnish with the basil, black pepper, and croutons", chef_id:chef1.id)
 
-recipe2= Recipe.create(recipe_name:"ZUCCHINI AND BEEF GRATIN", ingredients:"Serves 8
-2¼cups (120 ml) extra-virgin olive oil
+recipe2= Recipe.create(recipe_name:"ZUCCHINI AND BEEF GRATIN", ingredients:
+    "2¼cups (120 ml) extra-virgin olive oil
 2 onions, diced
 3 garlic cloves, minced
 2¼lb (1 kg) ground (minced) beef, lamb, or turkey
@@ -142,7 +128,7 @@ about 6 minutes. Let stand at room temperature for at least
 10 minutes before serving.", chef_id:chef1.id)
 
 
-recipe3= Recipe.create(recipe_name:" BURNT LIME SOUP ", ingredients:"Serves 8
+recipe3= Recipe.create(recipe_name:" BURNT LIME SOUP ", ingredients:"
 LIME OIL
 Grated zest of 1 lime
 scant ½ cup (100 ml) grapeseed oil
@@ -191,7 +177,7 @@ cilantro (coriander) and drizzle with the lime oil.
 Note: You can use any root vegetables you have on hand.  ", chef_id:chef4.id)
 
 
-recipe4= Recipe.create(recipe_name:"PASTA WITH POPCORN PESTO ", ingredients:"Serves 8
+recipe4= Recipe.create(recipe_name:"PASTA WITH POPCORN PESTO ", ingredients:"
 POPCORN PESTO
 3 tablespoons corn oil
 generous 2 tablespoons popcorn kernels
@@ -231,7 +217,7 @@ a drizzle of olive oil and some Parmigiano.
 Note: If you don't have pine nuts, add more popcorn.", chef_id:chef4.id)
 
 
-recipe5= Recipe.create(recipe_name:"CREAM OF MIXED GRAINS WITH PUFFED RICE AND GOAT MILK ROYALE", ingredients:"Serves 8
+recipe5= Recipe.create(recipe_name:"CREAM OF MIXED GRAINS WITH PUFFED RICE AND GOAT MILK ROYALE", ingredients:"
 CREAM OF GRAINS
 1¾ cups (400 g) wheat berries (whole grain)
 1 cup (200 g) pearl barley
@@ -280,7 +266,7 @@ for the garnish. Transfer the remaining mixture to a blender
 and process until velvety in texture. Refrigerate to chill.", chef_id:chef10.id)
 
 
-recipe6= Recipe.create(recipe_name:"SPICED MEATBALLS WITH SMOKED EGGPLANT, TOASTED CHICKPEAS, AND EGGPLANT CONDIMENT", ingredients:"Serves 8
+recipe6= Recipe.create(recipe_name:"SPICED MEATBALLS WITH SMOKED EGGPLANT, TOASTED CHICKPEAS, AND EGGPLANT CONDIMENT", ingredients:"
 MEATBALLS
 2 garlic bulbs
 ¼ teaspoon freshly grated nutmeg
@@ -396,7 +382,7 @@ juice of 1 lime", directions:"In a medium frying pan, heat the palm oil over low
 To serve, ladle into soup bowls. ", chef_id:chef2.id)
 
 
-recipe9= Recipe.create(recipe_name:"Green Asparagus, Yogurt Sauce With Menton Citrus And Chickweed", ingredients:"Serves 4. Green asparagus
+recipe9= Recipe.create(recipe_name:"Green Asparagus, Yogurt Sauce With Menton Citrus And Chickweed", ingredients:"Green asparagus
 12
 Purple asparagus
 2, from Albenga
@@ -491,8 +477,7 @@ Make a bed of sorrel leaves in the centre of a plate.
 Add a dollop of celeriac mousse
 Atop it, place the sea bass piece and garnish with the smoked seafood sauce that you’ve mixed in a blender.", chef_id:chef3.id)
 
-recipe10= Recipe.create(recipe_name:"Hida Beef", ingredients:"SERVES FOR
-4  
+recipe10= Recipe.create(recipe_name:"Hida Beef", ingredients:"
 Hida beef
 400 grump meat
 Olive oil
@@ -540,7 +525,7 @@ Covered beef with the sumi of Shimonita negi.
 Add salt and the beef’s red essence sauce.", chef_id:chef5.id)
 
 
-recipe10= Recipe.create(recipe_name:"Landscape of February Satoyama", ingredients:" 4 Servings Chicken Essence:
+recipe10= Recipe.create(recipe_name:"Landscape of February Satoyama", ingredients:"Chicken Essence:
 1 whole chicken (2 kilograms), cut into pieces
 1 onion, roughly chopped
 1 clove garlic, roughly chopped
@@ -625,7 +610,8 @@ Finishing and seasoning
 
 With an icing bag, put the sardine mousse between the two biscuits. On a plate, place four crunchy biscuits with sardine mousse.", chef_id:chef6.id)
 
-recipe10= Recipe.create(recipe_name:"Snails baked in a Paris mushroom cap with parsley and garlic butter", ingredients: "Serves 10 5kg Paris mushrooms
+recipe10= Recipe.create(recipe_name:"Snails baked in a Paris mushroom cap with parsley and garlic butter", ingredients: "
+5kg Paris mushrooms
 400g butter (plus a little more for the cooking)
 20g garlic
 150g shallots
@@ -645,7 +631,7 @@ Preheat the oven to 180°C.
 
 Scoop out the head of the mushrooms with a melon baller/fruit scoop and place a snail in each cap; cover with a knob of garlic butter and some breadcrumb coating.",chef_id:chef6.id)
 
-recipe10= Recipe.create(recipe_name:"Quinoa chaufa (chaufa de quinoa)", ingredients: "Serves 4 1¹⁄₃ cups(250 g) cooked white quinoa
+recipe10= Recipe.create(recipe_name:"Quinoa chaufa (chaufa de quinoa)", ingredients: "1¹⁄₃ cups(250 g) cooked white quinoa
 1¹⁄₃ cups(250 g) cooked red quinoa
 1¹⁄₃ cups(250g) cooked black quinoa
 3 tbsp vegetable oil
@@ -666,7 +652,7 @@ Wipe the pan clean with paper towels and add 1 tablespoon of vegetable oil. Add 
 
 Add the quinoa, omelette pieces and sugar, season with salt, and stir-fry for 1 minute. Add the chopped scallion (spring onion) and sesame oil and mix together thoroughly. Spoon onto a platter and serve.", chef_id:chef7.id)
 
-recipe10= Recipe.create(recipe_name:"Classic ceviche (ceviche clásico)", ingredients: "Serves 2 175 gwhite fish fillets (such as sole, croaker, or grouper)
+recipe10= Recipe.create(recipe_name:"Classic ceviche (ceviche clásico)", ingredients: "175 gwhite fish fillets (such as sole, croaker, or grouper)
 2cloves garlic, very finely chopped
 2 tsplimo chile, chopped
 juice of 20 small lemons
@@ -683,7 +669,7 @@ Pour over the lemon juice and add the chopped culantro or coriander leaves and i
 
 Serve in a large shallow bowl with cooked corn kernels and boiled sweet potato slices.", chef_id:chef7.id)
 
-recipe10= Recipe.create(recipe_name:"Lemon-scented rice with soya caramelised eel", ingredients: "For 6 people
+recipe10= Recipe.create(recipe_name:"Lemon-scented rice with soya caramelised eel", ingredients: "
 
 For the eel
 1 large eel (weighing about 800 g)
@@ -708,7 +694,7 @@ For the rice
 60 g of grated Grana Padano cheese
 50 g of roast meat juices
 1 lemon (the grated rind)
-butter", directions: "Clean and skin the eel. Cut it lengthways into two parts and create 6 portions from these fillets. Salt and pepper each piece, seal it in a vacuum pack with plenty of olive oil and steam at 68 °C for 2 hours.
+butter", directions: "Clean and skin the eel. Cut it length ways into two parts and create 6 portions from these fillets. Salt and pepper each piece, seal it in a vacuum pack with plenty of olive oil and steam at 68 °C for 2 hours.
 
 For the candied lemon julienne, heat the water, sugar and tartaric acid to 110 °C, then add the lemon rind and cook at 85 °C for 4 hours.
 
@@ -718,7 +704,7 @@ Toast the rice with the butter for 2 minutes, add the stock a little at a time, 
 
 Heat the soya caramel and caramelise the portions of eel on both sides. Place them on the rice, already served on the plates, and decorate with candied lemon.", chef_id:chef8.id)
 
-recipe10= Recipe.create(recipe_name:"ASADO NITSUKE", ingredients: "cooked beef short rib 1 portion
+recipe10= Recipe.create(recipe_name:"ASADO NITSUKE", ingredients: "
 60 grams Nitsuke sauce
 60 grams sautéed rice
 1 gram crispy garlic
