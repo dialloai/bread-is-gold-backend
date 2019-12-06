@@ -79,7 +79,7 @@ with salt.
 To serve, ladle the soup into bowls. Drizzle with olive oil
 and garnish with the basil, black pepper, and croutons", chef_id:chef1.id)
 
-recipe2= Recipe.create(recipe_name:"ZUCCHINI AND BEEF GRATIN", ingredients:
+recipe2 = Recipe.create(recipe_name:"ZUCCHINI AND BEEF GRATIN", ingredients:
     "2¼cups (120 ml) extra-virgin olive oil
 2 onions, diced
 3 garlic cloves, minced
@@ -128,7 +128,7 @@ about 6 minutes. Let stand at room temperature for at least
 10 minutes before serving.", chef_id:chef1.id)
 
 
-recipe3= Recipe.create(recipe_name:" BURNT LIME SOUP ", ingredients:"
+recipe3 = Recipe.create(recipe_name:" BURNT LIME SOUP ", ingredients:"
 LIME OIL
 Grated zest of 1 lime
 scant ½ cup (100 ml) grapeseed oil
@@ -177,7 +177,7 @@ cilantro (coriander) and drizzle with the lime oil.
 Note: You can use any root vegetables you have on hand.  ", chef_id:chef4.id)
 
 
-recipe4= Recipe.create(recipe_name:"PASTA WITH POPCORN PESTO ", ingredients:"
+recipe4 = Recipe.create(recipe_name:"PASTA WITH POPCORN PESTO ", ingredients:"
 POPCORN PESTO
 3 tablespoons corn oil
 generous 2 tablespoons popcorn kernels
@@ -217,7 +217,7 @@ a drizzle of olive oil and some Parmigiano.
 Note: If you don't have pine nuts, add more popcorn.", chef_id:chef4.id)
 
 
-recipe5= Recipe.create(recipe_name:"CREAM OF MIXED GRAINS WITH PUFFED RICE AND GOAT MILK ROYALE", ingredients:"
+recipe5 = Recipe.create(recipe_name:"CREAM OF MIXED GRAINS WITH PUFFED RICE AND GOAT MILK ROYALE", ingredients:"
 CREAM OF GRAINS
 1¾ cups (400 g) wheat berries (whole grain)
 1 cup (200 g) pearl barley
@@ -266,7 +266,7 @@ for the garnish. Transfer the remaining mixture to a blender
 and process until velvety in texture. Refrigerate to chill.", chef_id:chef10.id)
 
 
-recipe6= Recipe.create(recipe_name:"SPICED MEATBALLS WITH SMOKED EGGPLANT, TOASTED CHICKPEAS, AND EGGPLANT CONDIMENT", ingredients:"
+recipe6 = Recipe.create(recipe_name:"SPICED MEATBALLS WITH SMOKED EGGPLANT, TOASTED CHICKPEAS, AND EGGPLANT CONDIMENT", ingredients:"
 MEATBALLS
 2 garlic bulbs
 ¼ teaspoon freshly grated nutmeg
@@ -349,7 +349,7 @@ and a pinch of salt. Add the miso and garlic and blend until
 smooth. Add the lemon juice and yogurt and stir until combined. Set aside.", chef_id:chef10.id)
 
 
-recipe7= Recipe.create(recipe_name:"Chef Massimo Bottura’s Italian Salsa Verde Recipe", ingredients:"2 cups flat-leaf parsley leaves
+recipe7 = Recipe.create(recipe_name:"CHEF MASSIMO BOTTURA'S ITALIAN SALSA VERDE", ingredients:"2 cups flat-leaf parsley leaves
 
 1¾ ounces (50 grams) dried bread crumbs, preferably homemade
 
@@ -363,7 +363,7 @@ recipe7= Recipe.create(recipe_name:"Chef Massimo Bottura’s Italian Salsa Verde
 Process until smooth and thickened to the same consistency as the mayonnaise.
 Transfer the salsa verde to a storage container, and refrigerate until ready to use. It will keep for up to one day. ", chef_id:chef2.id)
 
-recipe8= Recipe.create(recipe_name:"VEGETARIAN MOQUECA", ingredients:"Serves 6
+recipe8 = Recipe.create(recipe_name:"VEGETARIAN MOQUECA", ingredients:"Serves 6
 
 3 tablespoons plus 1 teaspoon palm oil
 1 onion, sliced
@@ -382,7 +382,7 @@ juice of 1 lime", directions:"In a medium frying pan, heat the palm oil over low
 To serve, ladle into soup bowls. ", chef_id:chef2.id)
 
 
-recipe9= Recipe.create(recipe_name:"Green Asparagus, Yogurt Sauce With Menton Citrus And Chickweed", ingredients:"Green asparagus
+recipe9 = Recipe.create(recipe_name:"GREEN ASPARAGUS, YOGURT SAUCE WITH MENTON CITRUS AND CHICKWEED", ingredients:"Green asparagus
 12
 Purple asparagus
 2, from Albenga
@@ -447,8 +447,7 @@ Add drizzle of the lemon vinaigrette around the plate.
 Serve immediately.", chef_id:chef3.id)
 
 
-recipe10= Recipe.create(recipe_name:"Sea Bass, Celeriac Purée, Wild Sorrel And Smoked Sauce With Shellfish", ingredients:"SERVES FOR
-4 
+recipe10 = Recipe.create(recipe_name:"SEA BASS, CELERIAC PURÉE, WILD SIRREL AND SMOKED SAUCE WITH SHELLFISH", ingredients:"
 Celeriac
 250 g
 butter
@@ -477,7 +476,7 @@ Make a bed of sorrel leaves in the centre of a plate.
 Add a dollop of celeriac mousse
 Atop it, place the sea bass piece and garnish with the smoked seafood sauce that you’ve mixed in a blender.", chef_id:chef3.id)
 
-recipe10= Recipe.create(recipe_name:"Hida Beef", ingredients:"
+recipe11 = Recipe.create(recipe_name:"HIDA BEEF", ingredients:"
 Hida beef
 400 grump meat
 Olive oil
@@ -525,7 +524,7 @@ Covered beef with the sumi of Shimonita negi.
 Add salt and the beef’s red essence sauce.", chef_id:chef5.id)
 
 
-recipe10= Recipe.create(recipe_name:"Landscape of February Satoyama", ingredients:"Chicken Essence:
+recipe12 = Recipe.create(recipe_name:"LANDSCAPE OF FEBRUARY SATOYAMA", ingredients:"Chicken Essence:
 1 whole chicken (2 kilograms), cut into pieces
 1 onion, roughly chopped
 1 clove garlic, roughly chopped
@@ -574,7 +573,7 @@ Combine the turnip, egg white, and salt. The mixture will be very wet (this is d
 To Assemble and Serve:
 Place the flan in a serving bowl and spoon 1 tablespoon of root vegetable mixture over top. Cover with buckwheat risotto and spoon the turnip onto the risotto as if it is snow on the ground—leaving patches of “earth” (risotto) uncovered. Put the bowl in a steam convection oven to quickly warm it; right before serving, garnish with a tempura-fried fukinoto flower.   ", chef_id:chef5.id)
 
-recipe10= Recipe.create(recipe_name:"crunchy biscuits with sardine cream & lemon", ingredients:"Crunchy biscuits
+recipe13 = Recipe.create(recipe_name:"CRUNCHY BISCUITS WITH SARDINE CREAM & LEMON", ingredients:"Crunchy biscuits
 
 100ml of water
 
@@ -610,7 +609,7 @@ Finishing and seasoning
 
 With an icing bag, put the sardine mousse between the two biscuits. On a plate, place four crunchy biscuits with sardine mousse.", chef_id:chef6.id)
 
-recipe10= Recipe.create(recipe_name:"Snails baked in a Paris mushroom cap with parsley and garlic butter", ingredients: "
+recipe14 = Recipe.create(recipe_name:"SNAILS BAKED IN PARIS MUSHROOM CAP WITH PARSLEY AND GARLIC BUTTER", ingredients: "
 5kg Paris mushrooms
 400g butter (plus a little more for the cooking)
 20g garlic
@@ -631,7 +630,7 @@ Preheat the oven to 180°C.
 
 Scoop out the head of the mushrooms with a melon baller/fruit scoop and place a snail in each cap; cover with a knob of garlic butter and some breadcrumb coating.",chef_id:chef6.id)
 
-recipe10= Recipe.create(recipe_name:"Quinoa chaufa (chaufa de quinoa)", ingredients: "1¹⁄₃ cups(250 g) cooked white quinoa
+recipe15 = Recipe.create(recipe_name:"QUINOA CHAUFA (chaufa de quinoa)", ingredients: "1¹⁄₃ cups(250 g) cooked white quinoa
 1¹⁄₃ cups(250 g) cooked red quinoa
 1¹⁄₃ cups(250g) cooked black quinoa
 3 tbsp vegetable oil
@@ -652,7 +651,7 @@ Wipe the pan clean with paper towels and add 1 tablespoon of vegetable oil. Add 
 
 Add the quinoa, omelette pieces and sugar, season with salt, and stir-fry for 1 minute. Add the chopped scallion (spring onion) and sesame oil and mix together thoroughly. Spoon onto a platter and serve.", chef_id:chef7.id)
 
-recipe10= Recipe.create(recipe_name:"Classic ceviche (ceviche clásico)", ingredients: "175 gwhite fish fillets (such as sole, croaker, or grouper)
+recipe16 = Recipe.create(recipe_name:"CLASSIC CEVICHE (ceviche clásico)", ingredients: "175 gwhite fish fillets (such as sole, croaker, or grouper)
 2cloves garlic, very finely chopped
 2 tsplimo chile, chopped
 juice of 20 small lemons
@@ -669,7 +668,7 @@ Pour over the lemon juice and add the chopped culantro or coriander leaves and i
 
 Serve in a large shallow bowl with cooked corn kernels and boiled sweet potato slices.", chef_id:chef7.id)
 
-recipe10= Recipe.create(recipe_name:"Lemon-scented rice with soya caramelised eel", ingredients: "
+recipe17 = Recipe.create(recipe_name:"LEMON-SCENTED RICE WITH SOYA CARAMELISED EEL", ingredients: "
 
 For the eel
 1 large eel (weighing about 800 g)
@@ -704,7 +703,7 @@ Toast the rice with the butter for 2 minutes, add the stock a little at a time, 
 
 Heat the soya caramel and caramelise the portions of eel on both sides. Place them on the rice, already served on the plates, and decorate with candied lemon.", chef_id:chef8.id)
 
-recipe10= Recipe.create(recipe_name:"ASADO NITSUKE", ingredients: "
+recipe18 = Recipe.create(recipe_name:"ASADO NITSUKE", ingredients: "
 60 grams Nitsuke sauce
 60 grams sautéed rice
 1 gram crispy garlic
@@ -718,7 +717,7 @@ Nitsuke Sauce
 In a big pot add all the ingredients and cook at medium heat, mix constantly until reduced to 4 liters of sauce.
 Strain and reserve.", chef_id:chef9.id)
 
-recipe10= Recipe.create(recipe_name:"SAUTÉED BEANS", ingredients: "60g regional cooked beans (or any beans you like)
+recipe19 = Recipe.create(recipe_name:"SAUTÉED BEANS", ingredients: "60g regional cooked beans (or any beans you like)
 8g chopped red onion in brunoise
 4g chopped garlic in brunoise
 4g chopped ginger
